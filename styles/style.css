@@ -1,0 +1,15 @@
+.animated-square {
+    animation: changeColors 2s infinite alternate;
+}
+
+@keyframes changeColors {
+    0% {
+        fill: grey;
+        stroke: blue;
+    }
+
+    100% {
+        fill: lightgreen;
+        stroke: darkgreen;
+    }
+}
